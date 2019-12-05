@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Startup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Your own stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container d-flex align-items-center h-100">
+    <!-- "container" lets us hold everything as one. 
+      "d-flex" is used to activate flex-box.
+      "align-items-center" lets us align container elements to center.
+      "h-100" lets container to consider the whole page width as 100 instead the default width.
+      -->
+    <div class="row">
+      <header class="text-center col-12">
+        <!-- "col-12" used b'coz bootstarp uses 12Grid system. by this we can bring that small line and button to center -->
+        <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+      </header>
+      <div class="buffer col-12"></div>
+      <section class="text-center col-12">
+        <hr>
+        <button class="btn btn-primary btn-xl">find out more!</button>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
